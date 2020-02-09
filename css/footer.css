@@ -1,0 +1,344 @@
+/* Footer */
+.site-footer
+{
+    font-size: 1rem;
+    line-height: 1.5rem;
+
+    padding: 2.5rem 0 1.25rem;
+
+    color: var(--white);
+    background-color: var(--aaup-red);
+}
+.container2
+{
+    display: flex;
+
+    justify-content: space-around;
+}
+.site-footer hr
+{
+    opacity: .5;
+    border-top-color: var(--white);
+}
+.site-footer hr.small
+{
+    margin: 20px 0;
+}
+.site-footer h6
+{
+    font-size: 1rem;
+
+    margin-top: .375rem;
+    margin-bottom: 2rem;
+
+    letter-spacing: .125rem;
+    text-transform: uppercase;
+
+    color: #fff;
+}
+.site-footer a
+{
+    color: var(--white);
+}
+.site-footer a:hover
+{
+    text-decoration: underline;
+}
+.footer-text
+{
+    font-size: 1rem;
+
+    margin-bottom: 2rem;
+}
+.footer-links
+{
+    padding-left: 0;
+
+    list-style: none;
+}
+.footer-links li
+{
+    display: block;
+}
+.footer-links a
+{
+    text-decoration: none;
+
+    color: var(--white);
+}
+.footer-links a:active,
+.footer-links a:focus,
+.footer-links a:hover
+{
+    text-decoration: underline;
+}
+.footer-links.inline li
+{
+    display: inline-block;
+}
+.site-footer .social-icons
+{
+    text-align: right;
+}
+.site-footer .social-icons a
+{
+    line-height: 2.5rem;
+
+    width: 2.5rem;
+    height: 2.5rem;
+    margin-right: 0;
+    margin-left: .375rem;
+
+    border-radius: 100%;
+    background-color: #33353d;
+}
+.email-wrapper
+{
+    padding: 1rem;
+
+    border: 1px solid var(--white);
+    border-radius: .5px;
+}
+.email-link
+{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.copyright-text
+{
+    font-size: 1rem;
+
+    margin: 0;
+
+    text-align: center;
+}
+.row
+{
+    display: flex;
+
+    justify-content: space-around;
+}
+.row-social
+{
+    display: flex;
+
+    padding-top: 1rem;
+
+    justify-content: center;
+}
+
+.col1
+{
+    width: 40%;
+
+    align-self: center;
+}
+
+.column
+{
+    flex: 0 0 auto;
+}
+
+@media (max-width: 500px)
+{
+    .site-footer h6
+    {
+        font-weight: bold;
+
+        margin: 1.5rem 0 .5rem 0;
+        margin-bottom: .5rem;
+    }
+}
+
+/* Thank you Rúben Silva for your social media button design. https://codepen.io/deutschland2k/pen/qKpdJX */
+.svg-inline--fa
+{
+    vertical-align: -.200em;
+}
+.rounded-social-buttons
+{
+    text-align: center;
+}
+
+.rounded-social-buttons .social-button
+{
+    font-size: 1.5625rem;
+    font-weight: normal;
+    line-height: 2em;
+
+    position: relative;
+
+    display: inline-block;
+
+    width: 3.125rem;
+    height: 3.125rem;
+    margin-right: .25rem;
+    margin-bottom: .25rem;
+    padding: 0;
+
+    cursor: pointer;
+    transition: all .5s ease;
+    text-align: center;
+    text-decoration: none;
+
+    color: #fefefe;
+    border: .125rem solid transparent;
+    border-radius: 1.6875rem;
+}
+
+.rounded-social-buttons .social-button:hover,
+.rounded-social-buttons .social-button:focus
+{
+    -webkit-transform: rotate(360deg);
+        -ms-transform: rotate(360deg);
+            transform: rotate(360deg);
+}
+
+.rounded-social-buttons .fa-twitter,
+.fa-facebook-f,
+.fa-linkedin,
+.fa-youtube,
+.fa-instagram
+{
+    font-size: 25px;
+}
+
+.rounded-social-buttons .social-button.facebook
+{
+    background: #3b5998;
+}
+
+.rounded-social-buttons .social-button.facebook:hover,
+.rounded-social-buttons .social-button.facebook:focus
+{
+    color: #3b5998;
+    border-color: #3b5998;
+    background: #fefefe;
+}
+
+.rounded-social-buttons .social-button.twitter
+{
+    background: #55acee;
+}
+
+.rounded-social-buttons .social-button.twitter:hover,
+.rounded-social-buttons .social-button.twitter:focus
+{
+    color: #55acee;
+    border-color: #55acee;
+    background: #fefefe;
+}
+
+.rounded-social-buttons .social-button.linkedin
+{
+    background: #007bb5;
+}
+
+.rounded-social-buttons .social-button.linkedin:hover,
+.rounded-social-buttons .social-button.linkedin:focus
+{
+    color: #007bb5;
+    border-color: #007bb5;
+    background: #fefefe;
+}
+
+.rounded-social-buttons .social-button.youtube
+{
+    color: #b00;
+    background: #fefefe;
+}
+
+.rounded-social-buttons .social-button.youtube:hover,
+.rounded-social-buttons .social-button.youtube:focus
+{
+    color: #fefefe;
+    border-color: #fefefe;
+    background: #b00;
+}
+
+.rounded-social-buttons .social-button.instagram
+{
+    background: #125688;
+}
+
+.rounded-social-buttons .social-button.instagram:hover,
+.rounded-social-buttons .social-button.instagram:focus
+{
+    color: #125688;
+    border-color: #125688;
+    background: #fefefe;
+}
+
+.social-icons
+{
+    margin-bottom: 0;
+    padding-left: 0;
+
+    list-style: none;
+}
+.social-icons li
+{
+    display: inline-block;
+
+    margin-bottom: 4px;
+}
+.social-icons li.title
+{
+    font-size: 13px;
+    font-weight: 700;
+
+    margin-right: 15px;
+
+    text-transform: uppercase;
+
+    color: #96a2b2;
+}
+
+@media (max-width: 900px) {
+     .col1
+     {
+         display: none;
+     }
+}
+
+@media (max-width:991px)
+{
+    .site-footer [class^=col-]
+    {
+        margin-bottom: 30px;
+    }
+}
+@media (max-width:767px)
+{
+    .site-footer
+    {
+        padding-bottom: 0;
+    }
+
+    .row
+    {
+        flex-direction: column;
+
+        padding: 2rem;
+
+        text-align: center;
+    }
+    .col1
+    {
+        width: 100%;
+    }
+    .site-footer hr
+    {
+        margin: 0;
+    }
+    .row-social
+    {
+        padding: 1rem;
+
+        justify-content: center;
+    }
+    .copyright-text
+    {
+        width: 80%;
+    }
+}

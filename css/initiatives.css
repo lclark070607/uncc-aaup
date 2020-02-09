@@ -1,0 +1,130 @@
+/* Initiatives Sections */
+
+#initiatives-section
+{
+    margin: 0 auto;
+    margin-bottom: 1rem;
+}
+
+.initiatives
+{
+    padding: 0 0 4rem 0;
+}
+.row-item
+{
+    width: 50%;
+    height: 540px;
+}
+.row-item-content
+{
+    padding: 8em;
+
+    border: 1px solid lightgrey;
+    border-radius: .25px;
+}
+.row-item-background
+{
+    background-repeat: no-repeat;
+    background-position: top right;
+    background-size: cover;
+}
+
+.content-header
+{
+    font-size: 1.8rem;
+}
+
+.content-text
+{
+    font-size: 1.6rem;
+}
+
+@media (max-width: 768px)
+{
+    .content-header
+    {
+        font-size: 1.5rem;
+    }
+    .content-text
+    {
+        font-size: 1.2rem;
+    }
+}
+
+.bg-one
+{
+    background-image: url(../assets/professor.jpg);
+}
+
+.bg-two
+{
+    background-image: url(../assets/governance.jpg);
+}
+
+.bg-three
+{
+    background-image: url(../assets/card1.jpg);
+}
+
+.bg-four
+{
+    background-image: url(../assets/governance.jpg);
+}
+@media (min-width: 768px)
+{
+    .initiatives-row
+    {
+        display: -webkit-box;
+        display: flex;
+
+        -webkit-box-align: stretch;
+        align-items: stretch;
+    }
+}
+
+@media (min-width: 768px)
+{
+    .initiatives-row:nth-child(even) .row-item-background
+    {
+        -webkit-box-ordinal-group: 2;
+        order: 1;
+    }
+}
+
+@media (max-width: 768px)
+{
+    .row-item
+    {
+        width: 100%;
+        height: inherit;
+        padding: 2rem;
+    }
+
+    .row-item-content
+    {
+        padding: 2rem;
+    }
+
+    .row-item-background
+    {
+        height: 340px;
+    }
+}
+
+@media (max-width: 560px)
+{
+    .row-item
+    {
+        height: 340px;
+    }
+    .row-item-content.row-item
+    {
+        height: inherit;
+        margin-bottom: 1rem;
+        padding: 2rem;
+    }
+    .row-item-background
+    {
+        box-shadow: 0 3px 12px 0 rgba(0, 0, 0, .2), 0 1px 15px 0 rgba(0, 0, 0, .19);
+    }
+}

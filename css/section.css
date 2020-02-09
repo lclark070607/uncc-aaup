@@ -1,0 +1,36 @@
+/* Sections */
+.section-heading {
+    font-size: 2rem;
+}
+
+.section-divider {
+    width: 10%;
+    margin-bottom: 4rem;
+    padding: .2rem 1rem;
+
+    border-radius: .5rem;
+    background-color: var(--aaup-red);
+}
+
+@media (max-width: 768px) {
+    section
+    {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 500px)
+{
+    .section-heading
+    {
+        text-align: center;
+        padding: .25rem .5rem;
+    }
+
+    .section-divider
+    {
+        width: 20%;
+        margin: 1rem auto;
+        margin-bottom: 3rem;
+    }
+}

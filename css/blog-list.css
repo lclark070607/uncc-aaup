@@ -1,0 +1,32 @@
+.blog-header
+{
+    padding: 12rem 0;
+
+    background-color: var(--aaup-red);
+}
+.page-heading
+{
+    font-size: 32px;
+
+    display: inline-block;
+
+    margin-top: 120px;
+    padding: 4px 32px;
+
+    transition: all .4s;
+
+    border-right: 3px solid black;
+    border-left: 3px solid black;
+}
+.card-meta
+{
+    font-size: 14px;
+
+    padding-left: 8px;
+
+    color: #333;
+}
+.card-meta a
+{
+    color: #333;
+}

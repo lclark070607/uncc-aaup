@@ -1,0 +1,111 @@
+@import "hero.css";
+@import "navigation.css";
+@import "footer.css";
+@import "cards.css";
+@import "cta.css";
+@import "section.css";
+@import "mission.css";
+@import "initiatives.css";
+@import "resources.css";
+@import "blogpost.css";
+@import "bylaws.css";
+@import "bloglist.css";
+
+:root {
+    --aaup-red: #bc1f42;
+    --white: #fff;
+    --black: #333;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    overflow-x: hidden;
+
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Nunito Sans', sans-serif;
+
+    position: relative;
+
+    margin: 0;
+} 
+
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 8rem;
+    font-weight: bold;
+
+    margin: 0;
+}
+
+p {
+    font-size: 1.25rem;
+    line-height: 1.5;
+} 
+
+a {
+    text-decoration: none;
+
+    color: black;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+ul,
+ol {
+    margin: 0;
+    padding: 0;
+}
+
+ol {
+    padding: 1.2rem;
+}
+
+main {
+    margin: 0 auto;
+}
+
+.content {
+    padding: 1rem;
+}
+
+.sr-only
+{
+    position: absolute;
+    top: auto;
+    left: -10000px;
+
+    overflow: hidden;
+
+    width: .0625rem;
+    height: .0625rem;
+}
+
+@media (max-width: 600px) {
+    main {
+        width: 100%;
+    }    
+}
+
+@media (max-width: 768px) {
+    main {
+        width: 95%;
+    }  
+}
+
+@media (min-width: 1200px) {
+    main {
+        width: 85%;
+    }
+}

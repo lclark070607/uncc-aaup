@@ -1,0 +1,40 @@
+/* Mission Statement section */
+#mission-section
+{
+    padding-top: 4rem;
+}
+@media (max-width: 500px)
+{
+    #mission-section
+    {
+        padding-top: 0;
+    }
+}
+.mission-text
+{
+    font-size: 1.6rem;
+    line-height: 1.6;
+
+    color: #333;
+}
+.mission
+{
+    padding: 0 0 4rem 0;
+}
+
+.mission-wrapper
+{
+    padding: 3rem 8rem;
+
+    border: 1px solid lightgrey;
+    border-radius: .25px;
+    background: #f4f4f4;
+}
+
+@media (max-width: 500px)
+{
+    .mission-wrapper
+    {
+        padding: 1rem;
+    }
+}
