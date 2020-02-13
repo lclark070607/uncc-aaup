@@ -23,8 +23,8 @@ collections:
             - {label: 'Featured Image', name: thumbnail, widget: image}
             - {label: Type, name: type, widget: hidden, default: post}
             - {label: Body, name: body, widget: markdown}
-    - name: articles
-        label: Articles
+    - name: 'articles'
+        label: 'Articles'
         folder: content/articles
         create: true
         slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
