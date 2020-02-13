@@ -1,7 +1,6 @@
 const navSlide = () => {
     let menu = document.querySelector('.hamburger-menu');
     let nav = document.querySelector('.nav-links');
-    let navbar = document.querySelector('.navbar .nav')
     let navLinks = document.querySelectorAll('.nav li');
     let elementsArray = [menu, nav];
 
