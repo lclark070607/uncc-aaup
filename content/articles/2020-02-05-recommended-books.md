@@ -1,3 +1,4 @@
+---
 title: Recommended books
 date: '2019-02-05'
 draft: false
@@ -11,8 +12,8 @@ image: assets/card1.jpg
 comments: true
 share: true
 type: post
-
 ---
+
 A handful of insightful articles published in recent years in The Atlantic, the Boston Review, the Washington Post, and elsewhere.
 
 There Is No Excuse for How Universities Treat Adjuncts:

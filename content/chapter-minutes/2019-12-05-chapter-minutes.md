@@ -1,3 +1,4 @@
+---
 title: Chapter Minutes Dec. 5, 2019
 date: '2019-12-05'
 draft: false
@@ -10,6 +11,5 @@ image: assets/card1.jpg
 comments: true
 share: true
 type: post
-
 ---
 testing
