@@ -1,37 +1,30 @@
-.blog-post
-{
+.blog-post {
     border-left: 2px solid var(--aaup-red);
 }
 
-.post-wrapper
-{
+.post-wrapper {
     padding: 4rem 0;
 }
-#post-container
-{
+#post-container {
     display: flex;
 }
-#blogpost
-{
+#blogpost {
     display: flex;
     flex-direction: column;
 
     width: 70vw;
     padding: 2rem 0 4rem 0;
 }
-#blogpost .card
-{
+#blogpost .card {
     width: 100%;
 
     border: none;
 }
-#blogpost .card-image:hover
-{
+#blogpost .card-image:hover {
     box-shadow: none;
 }
 
-#sidebar
-{
+#sidebar {
     width: 30vw;
     padding: 0 2rem;
 
@@ -42,16 +35,13 @@
 }
 
 /* Media Queries */
-@media (max-width: 900px)
-{  
-    #blogpost
-    {
+@media (max-width: 900px) {  
+    #blogpost {
         width: 100%;
 
         border-left: 0;
     }
-    #sidebar
-    {
+    #sidebar {
         display: none;
     }
 }
