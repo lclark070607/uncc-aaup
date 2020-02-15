@@ -5,7 +5,7 @@
     height: 100vh;
 
     color: var(--white);
-    background-image: linear-gradient( rgba(0, 0, 0, .6), transparent), url('../assets/uncc-library.jpg');
+    background-image: linear-gradient( rgba(0, 0, 0, .7), transparent), url('../assets/uncc-library.jpg');
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -50,7 +50,7 @@ h1 .banner-title {
 
 @media (max-width: 500px) {
     #banner {
-        background-image: linear-gradient( rgba(0, 0, 0, .6), transparent), url('../assets/uncc-library-mobile.jpg');
+        background-image: linear-gradient( rgba(0, 0, 0, .7), transparent), url('../assets/uncc-library-mobile.jpg');
     }
     
     .banner_subhead {
