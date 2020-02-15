@@ -1,14 +1,11 @@
-#banner
-{
+#banner {
     display: flex;
     flex-direction: column;
 
     height: 100vh;
-    /* background-blend-mode: overlay; */
 
     color: var(--white);
-    /* background-color: rgba(0, 0, 0, 0.1) ; */
-    background-image: linear-gradient(rgba(0, 0, 0, .5),rgba(0, 0, 0, .5)), url('../assets/uncc-library.jpg');
+    background-image: linear-gradient( rgba(0, 0, 0, .6), transparent), url('../assets/uncc-library.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center center;
@@ -17,22 +14,26 @@
     align-items: center;
     justify-content: center;
 }
-.banner
-{
+.banner {
     text-align: center;
+    
 
     text-shadow: 2px 2px 1px rgba(0,0,0,.8);
 }
-.banner_subhead
-{
+
+h1 .banner-title {
+    letter-spacing: 8px;
+    font-family: 'Bebas Neue', cursive;
+}
+.banner_subhead {
     font-size: 3rem;
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: .2rem;
 
     margin: 0;
 }
-.banner_content
-{
+.banner_content {
     font-size: 1.6rem;
-    font-style: italic;
 }
 
 @media (max-width: 768px) {
@@ -49,6 +50,10 @@
 }
 
 @media (max-width: 500px) {
+    #banner {
+        background-image: linear-gradient( rgba(0, 0, 0, .6), transparent), url('../assets/uncc-library-mobile.jpg');
+    }
+    
     .banner_subhead {
         font-size: 1.5rem;
     }
