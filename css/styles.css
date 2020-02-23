@@ -10,6 +10,7 @@
 @import "blogpost.css";
 @import "bylaws.css";
 @import "bloglist.css";
+@import "calendar.css";
 
 :root {
     --aaup-red: #bc1f42;

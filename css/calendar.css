@@ -1,0 +1,90 @@
+.calendar {
+    display: flex;
+    flex-direction: column;
+
+    height: 55vh;
+
+    color: var(--white);
+    background-image: linear-gradient( rgba(0, 0, 0, .6), transparent), url('../assets/card1.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+
+    align-items: center;
+    justify-content: center;
+
+    margin-bottom: 4rem;
+}
+
+.calendar-row {
+    background-color: var(--white);
+    padding: 1rem 4rem;
+    width: 75%;
+}
+
+.content-row {
+    display: flex;
+    justify-content: left;
+    align-items: center;   
+}
+
+.content-row:nth-child(1) {
+    border-bottom: 1px solid lightgrey;
+    margin-bottom: 2rem;
+    padding-bottom: 2rem;  
+}
+
+.calendar-date {
+    color: var(--black);
+    font-size: 2rem;
+    margin: 0;
+    padding-top: 1rem;
+}
+
+.date-row {
+    display: flex;
+    align-items: center;
+}
+
+.calendar-location {
+    color: var(--aaup-black);
+    font-size: 1.2rem;
+}
+
+.fa-calendar {
+    font-size: 6rem;
+    margin-right: 1.8rem;
+    color: var(--aaup-red);
+}
+
+.calendar-hr {
+    margin: 1rem 0;
+}
+
+@media (max-width: 768px) {
+    .calendar-date {
+        font-size: 1.3rem;
+    }
+    .calendar-row {
+        width: 85%;
+    }
+}
+
+@media (max-width: 500px) {
+    .date-row {
+        flex-direction: column;
+    }
+    .fa-calendar {
+        font-size: 4rem;
+        margin: 0;
+    }
+    .calendar {
+        height: 75vh;
+    }
+    .calendar-row {
+        padding: 1rem;
+    }
+    .calendar-date {
+        text-align: center;
+    }
+}

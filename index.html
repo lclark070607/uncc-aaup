@@ -17,7 +17,7 @@
     <meta property="og:image" content="assets/uncc-library.jpg" />
 </head>
 <body>
-        <nav id="navbar" class="navbar" aria-labelledby="mainmenulabel">
+        <nav id="navbar" role="navigation" class="navbar" aria-labelledby="mainmenulabel">
             <div class="logo">
                 <a href="/">
                     <h4>UNCC AAUP</h4>
@@ -37,7 +37,7 @@
                 <div class="line3"></div>
             </div>
         </nav>
-        <header id="banner">
+        <header id="banner" role="banner">
             <div class="banner">
                 <h2 class="banner_subhead test">UNC Charlotte</h2>
                 <h1 class="banner_title">AAUP Chapter</h1>
@@ -46,7 +46,7 @@
         </header>
     
   
-    <main class="content">
+    <main role="main" class="content">
           <!-- Mission Statement Section -->
      <h2 id="about" class="section-heading" tabindex="-1">UNCC AAUP Mission Statement </h2>
      <div class="section-divider"></div>
@@ -55,6 +55,26 @@
              <p class="mission-text">The mission of the American Association of University Professors (AAUP) is to advance academic freedom and shared governance; to define fundamental professional values and standards for higher education; to promote the economic security of faculty, academic professionals, graduate students, post‐doctoral fellows, and all those engaged in teaching and research in higher education; to help the higher education community organize to make our goals a reality; and to ensure higher education's contribution to the common good.</p>
          </div>         
      </section>
+
+     <h2 id="calendar" class="section-heading" tabindex="-1">UNCC AAUP Chapter Meetings</h2>
+     <div class="section-divider"></div>
+     <section class="calendar">
+         <ul class="calendar-row" aria-label="upcoming meetings">
+            <li class="content-row">
+                <div class="date-row">
+                    <i class="fa fa-calendar" aria-hidden="true"></i>
+                    <p class="calendar-date">March 9th, 12:15pm - 1:15pm<br /><span class="calendar-location">LOCATION:  Friday, 107</span></p>
+                </div>     
+            </li> 
+            <li class="content-row">
+                <div class="date-row">
+                    <i class="fa fa-calendar" aria-hidden="true"></i>
+                    <p class="calendar-date">April 7th, 1:00pm - 2:00pm<br /><span class="calendar-location">LOCATION:  Friday, 107</span></p>
+                </div>   
+            </li>      
+        </ul>
+     </section>
+     
        
         <!-- Initiatives Section -->
         <h2  id="initiatives" class="section-heading">UNCC AAUP Initiatives</h2>
@@ -63,28 +83,28 @@
             <div class="initiatives-row">
                 <div class="row-item row-item-background bg-one"></div>
                 <div class="row-item row-item-content">
-                    <h2 class="content-header">Living Wage</h2>
+                    <h3 class="content-header">Living Wage</h3>
                     <p class="content-text">to promote the economic security of faculty, graduate students, and all those engaged in teaching and research in higher education</p>
                 </div>
             </div>
             <div class="initiatives-row">
                 <div class="row-item row-item-background bg-two"></div>
                 <div class="row-item row-item-content">
-                    <h2 class="content-header">Shared Governance</h2>
+                    <h3 class="content-header">Shared Governance</h3>
                     <p class="content-text">to preserve higher education’s core mission and values through genuine shared governance</p>
                 </div>
             </div>
             <div class="initiatives-row">
                 <div class="row-item row-item-background bg-three"></div>
                 <div class="row-item row-item-content">
-                    <h2 class="content-header">Academic Freedom</h2>
+                    <h3 class="content-header">Academic Freedom</h3>
                     <p class="content-text">to protect academic freedom for the purpose of ensuring the university's mission to enhance the common good</p>
                 </div>
             </div>
             <div class="initiatives-row">
                 <div class="row-item row-item-background bg-four"></div>
                 <div class="row-item row-item-content">
-                    <h2 class="content-header">Resisting corporatization</h2>
+                    <h3 class="content-header">Resisting corporatization</h3>
                     <p class="content-text">to support educators, not corporate leaders, in guiding the UNC system and its campuses</p>
                 </div>
             </div>
@@ -183,7 +203,7 @@
     </section>
       
     </main>
-    <footer  id="contact" class="site-footer">
+    <footer  id="contact" role="contentinfo" class="site-footer">
         <div class="container">
           <div class="row">
             <div class="column col1">
@@ -204,7 +224,7 @@
             <nav class="column quicklinks-nav" aria-labelledby="resources-menu">
               <h5 id="resouces-menu">Resources</h5>
               <ul class="footer-links" role="menu">
-                    <li class="nav-item" role="none"><a class="nav-link" href="https://actionnetwork.org/fundraising/join-the-aaup-monthly" role="menuitem">Join the National AAUP</a></li>
+                    <li class="nav-item" role="none"><a class="nav-link" href="https://www.aaup.org/" role="menuitem"> National AAUP Website</a></li>
                     <li class="nav-item" role="none"><a class="nav-link" href="https://aaupnorthcarolina.wordpress.com/" role="menuitem">North Carolina AAUP</a></li>
                     <li class="nav-item" role="none"><a class="nav-link" href=" https://www.aaup.org/event/2020-aaup-conference-and-biennial-meeting" role="menuitem">June 2020 AAUP Conference</a></li>
                     <li class="nav-item" role="none"><a class="nav-link" href="pages/chapter-bylaws.html" role="menuitem">UNCC Chapter Bylaws</a></li>
