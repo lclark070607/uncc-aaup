@@ -15,3 +15,13 @@
 
     background-color: transparent;
 }
+
+@media (max-width: 500px) {
+    #bylaws-section {
+        width: 90vw;
+    }
+    
+    .bylaws-title {
+        text-align: center;
+    }
+}
