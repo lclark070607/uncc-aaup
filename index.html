@@ -17,35 +17,35 @@
     <meta property="og:image" content="assets/uncc-library.jpg" />
 </head>
 <body>
-        <nav id="navbar" role="navigation" class="navbar" aria-labelledby="mainmenulabel">
-            <div class="logo">
-                <a href="/">
-                    <h4>UNCC AAUP</h4>
-                </a>
-            </div>
-            <h2 id="mainmenulabel" class="sr-only">Main Navigation Menu</h2>
-            <ul class="nav navbar-nav nav-links" role="menubar">
-                <li class="nav-item" role="none" ><a class="nav-link" href="/" role="menuitem">Home</a></li>
-                <li class="nav-item" role="none"><a class="nav-link" href="#about" role="menuitem">About</a></li>
-                <li class="nav-item" role="none"><a class="nav-link" href="#initiatives" role="menuitem">Initiatives</a></li>
-                <li class="nav-item" role="none"><a class="nav-link" href="#join" role="menuitem">Join</a></li>
-                <li class="nav-item" role="none"><a class="nav-link" href="#contact" role="menuitem">Contact</a></li>
-            </ul>
-            <div role="button" aria-hidden=”true” aria-label="open the menu" aria-expanded="false" class="hamburger-menu">
-                <div class="line1"></div>
-                <div class="line2"></div>
-                <div class="line3"></div>
-            </div>
+    <div class="topbar">
+        <div class="logo">
+            <a href="/">
+                <h4>UNCC AAUP</h4>
+            </a>
+        </div>
+        <nav id="navbar" role="navigation" aria-label="main navigation menu">
+            <ul id="main-nav" class="nav"  role="menubar" aria-expanded="false">
+                <li class="nav-item" role="none" ><a class="nav-link" href="/" role="menuitem" tabindex="0">Home</a></li>
+                <li class="nav-item" role="none"><a class="nav-link" href="#about" role="menuitem" tabindex="0">About</a></li>
+                <li class="nav-item" role="none"><a class="nav-link" href="#initiatives" role="menuitem" tabindex="0">Initiatives</a></li>
+                <li class="nav-item" role="none"><a class="nav-link" href="#join" role="menuitem" tabindex="0">Join</a></li>
+                <li class="nav-item" role="none"><a class="nav-link" href="#contact" role="menuitem" tabindex="0">Contact</a></li>
+            </ul>            
+            <button  id="menu-button" role="button" aria-controls="main-nav"  aria-label="menu collapsed" aria-expanded="false" class="hamburger-menu" tabindex="1">
+                <span id="menu-text">menu</span>
+                <div class="line line1"></div>
+                <div class=" line line2"></div>
+                <div class="line line3"></div>
+            </button>
         </nav>
-        <header id="banner" role="banner">
-            <div class="banner">
-                <h2 class="banner_subhead test">UNC Charlotte</h2>
-                <h1 class="banner_title">AAUP Chapter</h1>
-                <p class="banner_content">Defending academic freedom, shared faculty governance, and public education.</p>
-            </div>
-        </header>
-    
-  
+    </div>
+    <header id="banner" role="banner">
+        <div class="banner">
+            <h2 class="banner_subhead test">UNC Charlotte</h2>
+            <h1 class="banner_title">AAUP Chapter</h1>
+            <p class="banner_content">Defending academic freedom, shared faculty governance, and public education.</p>
+        </div>
+    </header>
     <main role="main" class="content">
           <!-- Mission Statement Section -->
      <h2 id="about" class="section-heading" tabindex="-1">UNCC AAUP Mission Statement </h2>
