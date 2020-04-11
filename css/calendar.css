@@ -22,6 +22,10 @@
     width: 75%;
 }
 
+.calendar-row li:last-child {
+    border: none;
+}
+
 .content-row {
     display: flex;
     justify-content: left;
@@ -31,7 +35,7 @@
 .content-row:nth-child(1) {
     border-bottom: 1px solid lightgrey;
     margin-bottom: 2rem;
-    padding-bottom: 2rem;  
+    /* padding-bottom: 2rem;   */
 }
 
 .calendar-date {

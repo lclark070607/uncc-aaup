@@ -1,0 +1,74 @@
+button svg {
+    height: 1em;
+    margin: 2rem;
+    float: right;
+}
+
+.accordion-wrapper {
+    background: #f3fbfd;
+	margin: 0 auto 4rem;
+    border: 1px solid darkgray;
+  }
+
+  .accordion > li {
+      list-style-type: none;
+      border-bottom: 1px solid lightgray;
+  }
+
+  .accordion > li:last-child {
+      border-bottom: none;
+  }
+
+  .accordion__text {
+      width: 90%;
+      margin: 0;
+      padding: 2rem;
+  }
+
+  .accordion__header {
+      margin: 0;
+      background-color: #fff;
+  }
+  
+  .accordion__header button {
+	 all: inherit;
+    width: 100%;  
+	 margin: 0 auto;
+     /* padding: 0 1rem 1rem 1rem; */
+     display: flex;
+     justify-content: space-between;
+  }
+
+  .accordion__header button:focus {
+   outline: -webkit-focus-ring-color auto 5px;
+  }
+
+  .accordion__header button:hover, .accordion__header button:focus       {
+    border: 4px solid;
+   }
+
+.accordion__panel {
+	  width: 80%;
+      margin: 0 auto;
+  }
+
+  .accordion-panel > p {
+      margin: 0;
+  }
+  
+  [aria-expanded="true"] .vert {
+   display: none;
+  }
+  
+  [aria-expanded] rect {
+   fill: currentColor;
+  }
+
+  @media (max-width: 600px) {
+    .accordion__panel {
+        width: 90%;
+    }
+    .accordion__text {
+        padding: 1rem;
+    }    
+}

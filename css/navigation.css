@@ -204,12 +204,12 @@
 
 }
 
-#expanded-text [aria-expanded='true'] {
-    display: block;
+[hidden] {
+    display: none !important;
 }
 
 .nav-active {
-    display: block;
+    display: block !important;
 
     transform: translateX(0%);
 }
