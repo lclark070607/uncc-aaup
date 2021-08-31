@@ -189,6 +189,8 @@
 
     .hamburger-menu {
         display: block;
+        background: transparent;
+        border: none;
     }
 
     .topbar  .nav-item .nav-link,
