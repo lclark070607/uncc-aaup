@@ -31,6 +31,10 @@
     background: #f4f4f4;
 }
 
+figure {
+    margin: 0 auto;
+}
+
 .mission-wrapper > ul {
     padding: 0 1.1rem;
 }
@@ -65,5 +69,8 @@
     .mission-wrapper
     {
         padding: 1rem;
+    }
+    figcaption > p {
+        font-size: 1rem;
     }
 }
