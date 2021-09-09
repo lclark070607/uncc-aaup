@@ -31,6 +31,20 @@
     background: #f4f4f4;
 }
 
+.mission-wrapper > ul {
+    padding: 0 1.1rem;
+}
+
+.iframe-vid {
+    margin: 0 auto;
+}
+
+.iframe-wrapper {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
 .process {
     margin-top: 4rem;
 }
@@ -44,12 +58,6 @@
     font-weight: bold;
     font-size: 1.5rem;
     margin-top: 2rem;
-}
-
-.process-wrapper {
-    border: 1px solid #000;
-    border-radius: 5px;
-    padding: 1rem;
 }
 
 @media (max-width: 500px)

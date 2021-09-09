@@ -218,8 +218,6 @@
 }
 
 .nav-active {
-    display: block !important;
-
     transform: translateX(0%);
 }
 
