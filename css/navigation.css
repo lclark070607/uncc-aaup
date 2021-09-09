@@ -1,4 +1,7 @@
 /* Logo */
+.logo > a {
+    text-decoration: none !important;
+}
 .logo {
     font-family: 'Roboto Slab Condensed', sans-serif;
     font-size: 1.6rem;
@@ -11,6 +14,7 @@
 
     color: var(--aaup-red);
 }
+
 
 /* Navbar */
 .topbar {
@@ -182,9 +186,12 @@
 
         background-color: lightgrey;
     }
+    .logo {
+        padding: 0 1rem;
+    }
 
     .logo h4 {
-        padding: 0 2rem;
+        padding: 0 1rem;
     }
 
     .hamburger-menu {

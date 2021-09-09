@@ -31,6 +31,27 @@
     background: #f4f4f4;
 }
 
+.process {
+    margin-top: 4rem;
+}
+
+.covid-resources {
+    padding: 0 2rem;
+    margin: 0 auto;
+}
+
+.subheader {
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin-top: 2rem;
+}
+
+.process-wrapper {
+    border: 1px solid #000;
+    border-radius: 5px;
+    padding: 1rem;
+}
+
 @media (max-width: 500px)
 {
     .mission-wrapper

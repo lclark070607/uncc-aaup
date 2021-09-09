@@ -59,8 +59,12 @@ p {
 } 
 
 a {
-    text-decoration: none;
+    /* text-decoration: none; */
     color: var(--aaup-red);
+    /* font-weight: bold; */
+}
+
+a:hover {
     font-weight: bold;
 }
 
