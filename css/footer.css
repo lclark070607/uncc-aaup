@@ -26,7 +26,7 @@
 }
 .site-footer h5
 {
-    font-size: 1rem;
+    font-size: 1.25rem;
 
     margin-top: .375rem;
     margin-bottom: 2rem;
@@ -142,6 +142,7 @@
 {
     .site-footer h5
     {
+        font-size: 1rem;
         font-weight: bold;
 
         margin: 1.5rem 0 .5rem 0;
