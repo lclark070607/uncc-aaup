@@ -12,6 +12,10 @@
     background-color: var(--aaup-red);
 }
 
+.meetings {
+    margin-top: 1rem;
+}
+
 @media (max-width: 768px) {
     section
     {
